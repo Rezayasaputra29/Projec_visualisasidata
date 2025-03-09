@@ -7,7 +7,7 @@ import streamlit as st
 
 # Konfigurasi Awal
 st.set_page_config(page_title="Bike Sharing Analysis", layout="wide")
-sns.set_style("whitegrid")
+sns.set_style("ticks")
 
 # Mapping untuk musim dan cuaca
 season_map = {1: "Spring", 2: "Summer", 3: "Fall", 4: "Winter"}
