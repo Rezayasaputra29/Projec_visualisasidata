@@ -32,4 +32,4 @@ streamlit run.py
 ```
 
 ## Streamlit cloud link
-
+https://projecvisualisasidata-8e4t2x4z4kprylgnpujdvm.streamlit.app/
