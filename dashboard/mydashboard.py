@@ -39,8 +39,8 @@ category_colors = {
 # Fungsi Load Data
 @st.cache_data
 def load_data():
-    days_url = "days_baru.csv"
-    hours_url = "hours_baru.csv"
+    days_url = "https://raw.githubusercontent.com/Rezayasaputra29/Projec_visualisasidata/main/dashboard/days_baru.csv"
+    hours_url = "https://raw.githubusercontent.com/Rezayasaputra29/Projec_visualisasidata/main/dashboard/hours_baru.csv"
     
     days = pd.read_csv(days_url, parse_dates=["date"])
     hours = pd.read_csv(hours_url, parse_dates=["date"])
