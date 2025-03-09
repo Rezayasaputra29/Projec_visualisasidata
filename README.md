@@ -13,12 +13,7 @@ pip install streamlit
 ```
 pip install -r requirements.txt
 ```
-3. Clone repositori atau unduh proyek ini
-```
-git clone https://github.com/username/repository-name.git
-cd repository-name
 
-```
 
 ##  aplikasi dipakai untk dijalankan
 1. Notebook
