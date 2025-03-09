@@ -63,13 +63,14 @@ def load_data():
 days_df, hours_df = load_data()
 
 # Sidebar Filter
-st.sidebar.header("Filter Data")
-selected_year = st.sidebar.selectbox("Pilih Tahun", ["Semua", 2012, 2011])
+st.sidebar.header("Sales by year")
+selected_year = st.sidebar.selectbox("Years", ["All", 2012, 2011])
 
 # Apply Filter
-if selected_year != "Semua":
+if selected_year != "All":
     days_df = days_df[days_df["year"] == selected_year]
     hours_df = hours_df[hours_df["date"].dt.year == selected_year]
+
 
 # Main Dashboard
 st.title("Dashboard Data Bike Sharing ")
