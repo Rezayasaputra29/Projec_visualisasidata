@@ -23,7 +23,7 @@ jupyter-notebook .
 2. Vs-code
 ```
 cd dashboard
-streamlit run.py
+streamlit run mydashboard.py
 ```
 
 ## Streamlit cloud link
